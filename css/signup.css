@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@600&display=swap');
+.login-outer-container{
+background-color:#3f3d56; 
+height: 100vh; 
+font-family: 'Baloo Paaji 2', cursive;
+
+}
+.division-container{
+margin: 5rem;
+height: 90vh;
+border-radius: 10px;
+}
+
+.division-container .left-side, .right-side{
+    margin: auto;
+}
+.left-side img{
+width: 100%;
+}
+.right-side h1{
+color: #3f4573;
+}
+
+.division-container form{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.division-container form .input-item{
+width: 300px;
+padding: 8px;
+margin-top: 15px;
+outline: none;
+border-radius: 2px;
+font-size: 14px;
+border: 1px solid #c0bcbc;
+}
+.division-container form .signup-button{
+background-color: #f10659;
+padding: 8px;
+width: 200px;
+margin-top: 30px;
+}
+.division-container  .signup{
+font-size: 13px;
+text-align: center;
+
+}
+    .social-media-signup{
+    display: flex;
+    justify-content: space-between ;
+    width: 300px;
+    margin: 2rem auto; 
+    }
+    .social-media-signup button{
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    font-size: 13px;
+    }
+    .social-media-signup button a{color: #fff;text-decoration: none;}
+    .social-media-signup button:nth-child(1){  background-color: #4969ac;}  
+    .social-media-signup button:nth-child(2){    background-color: #d95d50;}
+
+    @media screen and (max-width: 600px) {
+        h1{
+            font-size: 1.3rem;
+        }
+       
+        .division-container{
+        margin: 1rem;
+        }
+        .social-media-signup{
+            margin: 1rem auto; 
+            
+        }
+       
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 768px){
+        h1{
+            font-size: 1.8rem;
+        }
+        .division-container{
+        margin: 2rem;
+        }
+    }
